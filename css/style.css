@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Teko:wght@300..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #d1c6da;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.container-principal {
+    background-color: white;
+
+    margin: auto;
+    width: 90%;
+    height: 100vh;
+}
+
+nav {
+    padding: 1rem;
+    padding-left: 5.5rem;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h2 {
+    font-family: Montserrat;
+    font-size: 1.5rem;
+    font-weight: 800;
+
+    color: #a77dc9;
+}
+
+.menu-center {
+    width: 1000px;
+    font-size: 1.2rem;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.menu-right {    
+    width: 15%;
+    height: 25px;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+main {
+    display: flex;
+    padding-top: 2rem;
+    margin: 0 5% 0 5%;
+}
+
+.information {
+    width: 45%;
+    height: 80vh;
+
+    padding-top: 6rem;
+}
+
+.information h2 {
+    font-family: Montserrat;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+h1 {
+    font-family: Epilogue;
+    font-size: 5rem;
+    font-weight: 500;
+
+    color: #a77dc9;
+}
+
+p {
+    font-family: Inter;
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+.photo {
+    width: 55%;
+    height: 80vh;
+}
+
+.photo-produto {
+    height: 100%;
+}
+
+.button-set {
+    display: flex;
+    justify-content: space-evenly;
+
+    padding-top: 5rem;
+    font-size: 1.8rem;
+}
+
+.button-set button {
+    border: none;
+    padding: 0.2rem;
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+    border-radius: 0.8rem;
+
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+
+    font-family: Montserrat;
+    font-size: 1.5rem;
+    font-weight: 800;
+
+}
+
+.roxo {
+    background-color: #a77dc9;
+    color: white;
+}
+
+.branco {
+    color: #a77dc9;
+}
